@@ -1,11 +1,13 @@
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Dependency directories
+node_modules/
+jspm_packages/
+**/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
 
 # Environment variables
 .env
@@ -20,7 +22,41 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
 # Generated files
 python_scripts/
-generated_images/ 
+generated_images/
+
+# Testing and coverage
+coverage/
+.nyc_output/
+lib-cov/
+
+# IDE / editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
