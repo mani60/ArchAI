@@ -105,7 +105,7 @@ ArchAI is built with a modern web architecture:
 The system prompt and temperature settings can be adjusted in the backend files:
 
 - `Backend/prompt.js` - Contains the system prompt that guides GPT-4 in generating accurate architecture diagrams
-- `Backend/server.js` - Contains the temperature setting (currently set to 0.1) that controls the determinism of the output
+- `Backend/server.js` - Contains the temperature setting (currently set to 0.55) that controls the determinism of the output
 
 ## Contributing
 
