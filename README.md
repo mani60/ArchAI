@@ -38,7 +38,7 @@ ArchAI is built with a modern web architecture:
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/ArchAI.git
+   git clone https://github.com/mani60/ArchAI.git
    cd ArchAI
    ```
 
@@ -105,7 +105,7 @@ ArchAI is built with a modern web architecture:
 The system prompt and temperature settings can be adjusted in the backend files:
 
 - `Backend/prompt.js` - Contains the system prompt that guides GPT-4 in generating accurate architecture diagrams
-- `Backend/server.js` - Contains the temperature setting (currently set to 0.55) that controls the determinism of the output
+- `Backend/server.js` - Contains the temperature setting (currently set to 0.1) that controls the determinism of the output
 
 ## Contributing
 
@@ -119,4 +119,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - [OpenAI](https://openai.com/) for providing the GPT-4 API
 - [Diagrams](https://diagrams.mingrammer.com/) library for AWS architecture visualization
-- All contributors to this project 
+- All contributors to this project
